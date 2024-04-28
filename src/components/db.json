@@ -1,0 +1,14 @@
+{
+  "trafficLight": {
+    "trafficLight": {
+      "activeColor": "red",
+      "count": {
+        "red": 3,
+        "yellow": 0,
+        "green": 0
+      },
+      "blinkingColor": "red",
+      "isBlinking": true
+    }
+  }
+}

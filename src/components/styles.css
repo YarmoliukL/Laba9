@@ -1,0 +1,40 @@
+.traffic-light-container {
+  background-color: #000;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  gap: 16px;
+  text-align: center;
+  color: #000;
+}
+
+.traffic-light {
+  background-color: #555;
+  --size: 100px;
+  border-radius: var(--size);
+  height: var(--size);
+  width: var(--size);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 60px;
+}
+
+.navbar {
+  position: relative;
+  right: 30%;
+  top: 20px;
+  display: flex;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  gap: 24px;
+}
